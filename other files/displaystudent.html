@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script src="displaystudent.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <link rel="stylesheet" href="displaystudent.css">
+    
+
+<div class="card">
+  <img src="data:image/png;base64,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" alt="ALLEN" style="width:100%">
+  <h1 id="getuser"></h1>
+  
+  <p class="title">ASS. PROFESSOR CSE DEPARTMENT</p>
+  <p>SRI VENKATESWARA COLLEGE OF ENGINEERING</p>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  
+</div>
+<br><br>
+<h1 id="tt">TIME TABLE</h1>
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td align="center" height="50" 
+                width="100"><br>
+                <b>Day/Period</b></br>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>I<br>9:30-10:20</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>II<br>10:20-11:10</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>III<br>11:10-12:00</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>12:00-12:40</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>IV<br>12:40-1:30</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50" 
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">Che</td>
+            <td rowspan="6" align="center" height="50">
+                <h2>L<br>U<br>N<br>C<br>H</h2>
+            </td>
+            <td colspan="3" align="center" 
+                height="50">LAB</td>
+            <td align="center" height="50">Phy</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td colspan="3" align="center" 
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">SPORTS</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">phy</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td colspan="3" align="center" 
+                height="50">LIBRARY
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">Phy</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td colspan="3" align="center" 
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Mat</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+            <td colspan="3" align="center" 
+                height="50">LAB
+            </td>
+            <td align="center" height="50">Mat</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Phy</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td align="center" height="50">Eng</td>
+            <td align="center" height="50">Che</td>
+            <td align="center" height="50">Mat</td>
+            <td colspan="3" align="center" 
+                height="50">SEMINAR
+            </td>
+            <td align="center" height="50">SPORTS</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <div class="todocontainer">
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+      <ul id="myUL">
+        <li>ASSIGNMENT CORRECTION</li>
+        <li class="checked">PAPER CORRECTION</li>
+        <li>TO ATTEND THE CLASS COMITTEE MEET</li>
+        
+        <li>MEET WITH XXX</li>
+        <li>Organize CULTURAL EVENt YYY</li>
+      </ul>
+    </div>
+    
+      
+    
+</body>
+</html>
