@@ -1,0 +1,41 @@
+.footer {
+	padding-top: 2rem;
+	&__container {
+		row-gap: 2.5rem;
+		color: $white;
+	}
+	&__bg {
+		background: linear-gradient(to left, $blue, $pink);
+		padding: 2rem 0 3rem;
+	}
+	&__title {
+		font-size: $h1-font-size;
+		margin-bottom: $mb-0-25;
+	}
+	&__subtitle {
+		font-size: $small-font-size;
+	}
+	&__link {
+		display: flex;
+		flex-direction: column;
+		color: $white;
+		margin-bottom: 1.5rem;
+		&:hover {
+			color: darken($color: $white, $amount: 10%);
+		}
+	}
+	&__social {
+		font-size: 1.25rem;
+		color: $white;
+		margin-right: $mb-1-5;
+		&:hover {
+			color: darken($color: $white, $amount: 10%);
+		}
+	}
+	&__copy {
+		font-size: $smaller-font-size;
+		text-align: center;
+		margin-top: $mb-2;
+		color: $white;
+	}
+}

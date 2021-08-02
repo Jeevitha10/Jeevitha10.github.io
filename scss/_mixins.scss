@@ -1,0 +1,22 @@
+@mixin transition-ease {
+	transition: all 0.5s ease;
+}
+
+@mixin text-gradient {
+	background: -webkit-linear-gradient(left, $pink, $blue);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@mixin button {
+	padding: 1rem;
+	background-color: $blue;
+	border-radius: 0.5rem;
+	color: $white;
+	font-family: $font-black;
+	&:hover {
+		@include transition-ease;
+		background: linear-gradient(to right, $blue, $pink);
+	}
+}

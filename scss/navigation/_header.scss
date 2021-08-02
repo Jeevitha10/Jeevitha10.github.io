@@ -1,0 +1,91 @@
+.header {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: $z-fixed;
+	background-color: $white;
+}
+
+.nav {
+	max-width: 968px;
+	height: $header-height;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__brand {
+		color: $blue;
+		font-family: $font-bold;
+	}
+	&__toggle-img {
+		cursor: pointer;
+	}
+
+	&__items {
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 2rem;
+	}
+	&__link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		color: $blue;
+		font-weight: 600;
+		&:hover {
+			color: $dark-blue;
+		}
+	}
+	&__icon {
+		font-size: 1.2rem;
+		background: -webkit-linear-gradient(left, $pink, $blue);
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-bottom: $mb-0-5;
+	}
+	&__toggle-img {
+		@include text-gradient;
+		font-size: 1.3rem;
+	}
+	&__close {
+		position: absolute;
+		right: 1.3rem;
+		bottom: 0.5rem;
+		font-size: 1.5rem;
+		cursor: pointer;
+		color: $blue;
+		&:hover {
+			color: $dark-blue;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.nav__menu {
+		@include transition-ease;
+		position: fixed;
+		bottom: -100%;
+		left: 0;
+		width: 100%;
+		background-color: $white;
+		padding: 2rem 1.5rem 4rem;
+		box-shadow: 0 -1px 4px rgba($color: #000000, $alpha: 0.15);
+		border-radius: 1.5rem 1.5rem 0 0;
+	}
+}
+
+.show-menu {
+	bottom: 0;
+}
+
+.nav__btns {
+	display: flex;
+	align-items: center;
+}
+.change-theme {
+	@include text-gradient;
+	font-size: 1.25rem;
+	margin-right: $mb-1;
+	cursor: pointer;
+}

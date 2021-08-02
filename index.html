@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/J.png">
+    <title>Jeevitha</title>
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="dark-theme">
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__brand">Jeevitha</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__items grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <span class="fas fa-home nav__icon"></span>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <span class="far fa-user nav__icon"></span>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <span class="far fa-file-code nav__icon"></span>
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <span class="fas fa-project-diagram nav__icon"></span>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#cvv" class="nav__link">
+                            <span class="far fa-file nav__icon"></span>
+                            <span>CVV</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <span class="far fa-paper-plane nav__icon"></span>
+                            <span>Contact me</span>
+                        </a>
+                    </li>
+                </ul>
+                <span class="nav__close" id="nav-close">&times;</span>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button  -->
+                <span class="far fa-moon change-theme" id="theme-btn"></span>
+                <div class="nav__toggle" id="nav-toggle">
+                    <span class="fas fa-shapes nav__toggle-img"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+
+                    <ul class="home__socials">
+                        <li class="home__social">
+                            <a href="https://www.linkedin.com/in/jeevitha-j-0205991b6" class="home__icon">
+                                <span class="fab fa-linkedin-in"></span>
+                            </a>
+                        </li>
+
+                        <li class="home__social">
+                            <a href="https://spottersky.blogspot.com/" class="home__icon">
+                                <span class="fab fa-blogger-b"></span>
+                            </a>
+                        </li>
+
+                        <li class="home__social">
+                            <a href="https://github.com/Jeevitha10" class="home__icon">
+                                <span class="fab fa-github"></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="home__img">
+                        <img src="assets/profile.png" alt="profile-pic" class="home__profile">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm <span class="home__name">Jeevitha</span></h1>
+                        <h3 class="home__subtitle">Full Stack Developer</h3>
+                        <p class="home__desc">Having limited experience in backend developing but more knowledge in
+                            front end developing</p>
+                        <a href="#contact" class="home__btn">Contact Me<span
+                                class="far fa-paper-plane home__btn-icon"></span></a>
+                    </div>
+
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-btn"><span
+                            class="far fa-hand-point-down home__scroll-point"></span></a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about section" id="about">
+
+            <h2 class="section__title">About Me</h2>
+
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/photo.jpg" class="about__img" alt="profile">
+                <div class="about__data">
+                    <p class="about__desc">
+                        Hi, I'm Jeevitha. I'm a hard working Engineering graduate specialized in computer science and
+                        engineering.
+                        And I am really glad to say that I've
+                        received <em>Budding Bright Engineer Award</em>. I've done some projects as a full stack
+                        developer.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- cvv -->
+        <section id="cvv">
+            <div class="cvv container">
+                <a href="assets/Resume.pdf" download="" class="cvv__button">Download CVV<span
+                        class="fas fa-download cvv__icon"></span></a>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- skill 1 -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <span class="fas fa-code skills__icon"></span>
+
+                            <h1 class="skills__title">Frontend Developer</h1>
+
+                            <span class="material-icons skills__arrow">
+                                expand_more
+                            </span>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="90" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="90" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="80" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ReactJS</h3>
+                                    <span class="skills__number">45%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="45" class="skills__slider">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- skill 2 -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <span class="fas fa-server skills__icon"></span>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="material-icons skills__arrow">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="80" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ExpressJS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="70" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="70" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="80" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="90" class="skills__slider">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- skill 3 -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <span class="fas fa-swatchbook skills__icon"></span>
+                            <h1 class="skills__title">Designer</h1>
+                            <span class="material-icons skills__arrow">
+                                expand_more
+                            </span>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="70" class="skills__slider">
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Canva</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <input type="range" min="0" max="100" disabled value="70" class="skills__slider">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- qualification -->
+        <section class="qualification section" id="qualification">
+            <h1 class="section__title">Qualification</h1>
+            <span class="section__subtitle">My personal journey</span>
+            <div class="qualififcation__container container">
+                <div class="qualification__tabs">
+                    <button class="qualification__btn qualification__active" data-target="#education">
+                        <span class="material-icons qualification__icon">
+                            school
+                        </span>
+                        Education
+                    </button>
+                    <button class="qualification__btn" data-target="#work">
+                        <span class="material-icons qualification__icon">
+                            cases
+                        </span>
+                        Work
+                    </button>
+                </div>
+
+                <div class="qualification__sections">
+                    <!-- Education -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">B.E (CSE)</h3>
+                                <span class="qualification__subtitle">Anna University</span>
+                                <div class="qualification__calendar">
+                                    <span class="far fa-calendar-alt"></span>
+                                    2019-2023
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">XII STD</h3>
+                                <span class="qualification__subtitle">Infant Jesus Matric Hr. Sec. School</span>
+                                <div class="qualification__calendar">
+                                    <span class="far fa-calendar-alt"></span>
+                                    2018-2019
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- work -->
+                    <div class="qualification__content " data-content id="work">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Campus Ambassador</h3>
+                                <span class="qualification__subtitle">Collegedunia</span>
+                                <div class="qualification__calendar">
+                                    <span class="far fa-calendar-alt"></span>
+                                    Sep 2020 - Oct 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">XII STD</h3>
+                                <span class="qualification__subtitle">Infant Jesus Matric Hr. Sec. School</span>
+                                <div class="qualification__calendar">
+                                    <span class="far fa-calendar-alt"></span>
+                                    2018-2019
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Recent works</span>
+
+            <div class="projects__container container grid">
+                <!-- project 1 -->
+                <div class="projects__content">
+                    <div>
+                        <span class="fas fa-book projects__icon"></span>
+                        <h3 class="projects__title">Library management</h3>
+                        <a href="https://pure-basin-26780.herokuapp.com/home" class="projects__repo" target="_blank">
+                            <span class="far fa-folder-open projects__icon-repo"></span>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project 2 -->
+                <div class="projects__content">
+                    <div>
+                        <span class="fas fa-book projects__icon"></span>
+                        <h3 class="projects__title">Sample Portfolio</h3>
+                        <a href="https://jeevitha10.github.io/Sample-portfolio/dist/index.html" class="projects__repo"
+                            target="_blank">
+                            <span class="far fa-folder-open projects__icon-repo"></span>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- project 3 -->
+                <div class="projects__content">
+                    <div>
+                        <span class="fas fa-book projects__icon"></span>
+                        <h3 class="projects__title">SVCE Website - Clone</h3>
+                        <a href="https://jeevitha10.github.io/SVCE-Website-clone/main.html" class="projects__repo"
+                            target="_blank">
+                            <span class="far fa-folder-open projects__icon-repo"></span>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+                <!-- project 4 -->
+                <div class="projects__content">
+                    <div>
+                        <span class="fas fa-book projects__icon"></span>
+                        <h3 class="projects__title">Secrets</h3>
+                        <a href="https://github.com/Jeevitha10/secrets/" class="projects__repo" target="_blank">
+                            <span class="far fa-folder-open projects__icon-repo"></span>
+                            Repository link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact me -->
+        <section class="content section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <span class="fas fa-phone-alt contact__icon"></span>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">+91 - 7094805779</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <span class="far fa-envelope contact__icon"></span>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">jeevithajayakumar10@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <span class="fas fa-map-marker-alt contact__icon"></span>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Kanchipuram, Tamil Nadu - 631501</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form method="POST" data-netlify="true" name="contact-form" class="contact__form grid">
+                    <div class="contact__content">
+                        <label for="contact-name" class="contact__label">Name</label>
+                        <input type="text" id="contact-name" name="contact-name" class="contact__input" />
+                    </div>
+                    <div class="contact__content">
+                        <label for="contact-email" class="contact__label">Email</label>
+                        <input type="email" id="contact-email" name="contact-email" class="contact__input" />
+                    </div>
+                    <div class="contact__content">
+                        <label for="contact-project" class="contact__label">Project</label>
+                        <input type="text" id="contact-project" name="contact-project" class="contact__input" />
+                    </div>
+                    <div class="contact__content">
+                        <label for="contact-desc" class="contact__label">Description</label>
+                        <textarea name="contact-desc" id="contact-desc" cols="0" rows="7"
+                            class="contact__input"></textarea>
+                    </div>
+                    <button class="contact__btn" type="submit" name="action">
+                        Send the message
+                        <span class="far fa-paper-plane contact__btn-icon"></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Jeevitha</h1>
+                    <span class="footer__subtitle">Web Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__link">About me</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/jeevitha.jayakumar.35" target="_blank" class="footer__social">
+                        <span class="fab fa-facebook-f footer__social-icon"></span>
+                    </a>
+                    <a href="https://instagram.com/jeevitha_jayakumar10?utm_medium=copy_link" target="_blank"
+                        class="footer__social">
+                        <span class="fab fa-instagram footer__social-icon"></span>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <span class="fab fa-twitter footer__social-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; <b>Jeevitha J</b>. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

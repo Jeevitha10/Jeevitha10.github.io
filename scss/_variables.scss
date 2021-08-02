@@ -1,0 +1,53 @@
+//header height
+$header-height: 3rem;
+
+//font-family
+$font-black: "merriweatherblack";
+$font-bold: "merriweatherbold";
+$font-regular: "merriweatherregular";
+$font-light: "merriweatherlight";
+
+// colors
+$black: #17181f;
+$dark-blue: #3456ff;
+$blue: #6c72cb;
+$pink: #cb69c1;
+$white: #eeedf0;
+$light-white: #d4d1d9;
+$scroll-bar: #cec5c9;
+$scroll-thumb: #737177;
+
+//font size
+$big-font-size: 2rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+//margin bottom
+$mb-0-25: 0.25rem;
+$mb-0-5: 0.5rem;
+$mb-0-75: 0.75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+$mb-3: 3rem;
+
+//z-index
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+// Font size for large devices
+@media screen and (min-width: 968px) {
+	$big-font-size: 3rem;
+	$h1-font-size: 2.25rem;
+	$h2-font-size: 1.5rem;
+	$h3-font-size: 1.25rem;
+	$normal-font-size: 1rem;
+	$small-font-size: 0.875rem;
+	$smaller-font-size: 0.813rem;
+}
