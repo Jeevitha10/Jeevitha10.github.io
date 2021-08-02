@@ -436,6 +436,10 @@ img {
   background-color: #2d2f3c;
 }
 
+.dark-theme .contact__input {
+  color: #fff;
+}
+
 .section {
   padding: 2rem 0 4rem;
 }
@@ -1082,6 +1086,7 @@ img {
 }
 
 .contact__btn {
+  cursor: pointer;
   margin: 0.5rem 0;
   background: -webkit-gradient(linear, right top, left top, from(#6c72cb), to(#cb69c1));
   background: linear-gradient(to left, #6c72cb, #cb69c1);
